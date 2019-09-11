@@ -26,7 +26,7 @@ const itemSchema = new mongoose.Schema({
         required: true
     },
     is_sold: {
-        type: String,
+        type: Boolean,
         required: true,
         default: false
     },
